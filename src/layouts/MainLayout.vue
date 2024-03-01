@@ -1,6 +1,6 @@
 <template>
   <header-component/>
-  <div >
+  <div>
     <home-view/>
   </div>
   <footer-component/>
