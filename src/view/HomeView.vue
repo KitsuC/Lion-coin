@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="banner-wrap ">
+    <div id="home" class="banner-wrap">
       <h2
           class="text-[96px] text-white relative z-10 text-center min-[992px]:text-[150px] min-[992px]:w-fit min-[992px]:self-end
-                min-[992px]:right-[85px] min-[1200px]:text-[220px]"
+                min-[992px]:right-[85px] min-[1200px]:text-[220px] max-[375px]:text-[60px]"
       >
         LION COIN
       </h2>
@@ -16,12 +16,14 @@
         >
         <p
             class="absolute top-[31%] left-[80px] text-[24px] font-[900] text-white min-[576px]:top-[38%] min-[768px]:top-[36%]
-                 min-[768px]:text-[32px] min-[768px]:left-[260px] min-[992px]:left-[544px] min-[992px]:top-[44%]"
+                 min-[768px]:text-[32px] min-[768px]:left-[260px] min-[992px]:left-[544px] min-[992px]:top-[44%] max-[375px]:text-[16px]
+                  max-[375px]:top-[42%]"
         >
           You guys buy them? So pathetic
         </p>
         <img class="absolute h-[46px] w-[94px] top-[37%] left-[120px] min-[576px]:top-[45%] min-[768px]:w-[214px]
-                  min-[768px]:left-[195px] min-[768px]:h-[106px] min-[992px]:top-[52%] min-[992px]:left-[410px]"
+                  min-[768px]:left-[195px] min-[768px]:h-[106px] min-[992px]:top-[52%] min-[992px]:left-[410px]
+                  max-[375px]:top-[46%] max-[375px]:left-[84px]"
              src="../assets/images/vector-white.png"
              alt="">
       </div>
@@ -58,7 +60,7 @@
         <div
             class="h-[168px] flex items-center p-[12px] bg-[#FF4800] text-white font-[300] text-[14px] leading-[24px]
                  min-[576px]:h-[120px] min-[768px]:h-auto min-[768px]:max-w-[628px]
-                 min-[992px]:text-[18px] min-[992px]:p-[24px] min-[992px]:leading-[30px]"
+                 min-[992px]:text-[18px] min-[992px]:p-[24px] min-[992px]:leading-[30px] max-[375px]:text-[12px]"
         >
           Lion isn't your ordinary meme coin - far from it?
           <br>
@@ -68,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="relative min-[768px]:flex justify-between ">
+    <div id="whatislion" class="relative min-[768px]:flex justify-between ">
       <div
           class="max-[768px]:m-auto max-[768px]:max-w-[540px] max-[576px]:max-w-[343px] pt-[32px] flex flex-col
                  min-[768px]:max-w-[55.5%] min-[768px]:pt-[60px] min-[992px]:pt-[72px]"
@@ -78,13 +80,15 @@
         >
           <button
               class="py-[16px] px-[24px] text-center text-white font-[900] text-[32px] w-full bg-[#FF4800] leading-[40px]
-                     min-[768px]:max-w-[230px] min-[992px]:text-[72px] min-[992px]:leading-[90px] min-[992px]:max-w-fit"
+                     min-[768px]:max-w-[230px] min-[992px]:text-[72px] min-[992px]:leading-[90px] min-[992px]:max-w-fit
+                     max-[375px]:text-[24px] max-[375px]:leading-[24px] max-[375px]:py-[10px]"
           >
             What is Lion?
           </button>
           <h2
               class="text-2xl font-[900] mt-[24px] text-[#1E293B] tracking-[0.9px] self-start min-[992px]:text-4xl
-                     min-[1200px]:text-[48px] min-[1200px]:leading-[68px]"
+                     min-[1200px]:text-[48px] min-[1200px]:leading-[68px] max-[375px]:mt-[18px] max-[375px]:text-[20px]
+                     leading-[24px]"
           >
             The Alpha Predator meme coin,
             <br>
@@ -96,7 +100,9 @@
           >
             $LION wants to overcome the limitations of existing DogeShibaInuPepeBabyDogeBone coins. While these coins
             have achieved remarkable success, they still face certain constraints that we, at Lion, are determined to
-            improve upon! $LION is here to fix the past and pounce into the future.
+            improve upon!
+            <br>
+            $LION is here to fix the past and pounce into the future.
             <br>
             Why settle for snooze-worthy meme coins when you can blast off with Lion?
           </p>
@@ -106,15 +112,17 @@
         <p
             class="absolute text-2xl max-w-[195px] top-[72px] right-0 min-[992px]:text-[32px] font-[900]
                    min-[992px]:leading-[40px] min-[992px]:max-w-[212px] min-[992px]:top-[108px] min-[992px]:right-[18px]
-                   min-[1200px]:top-[283px]"
+                   min-[1200px]:top-[283px] max-[375px]:text-[16px] max-[375px]:text-center max-[375px]:leading-[28px]
+                    max-[375px]:max-w-[162px]"
         >
           Long live the King
           King of Meme coin
         </p>
         <div
-            class="absolute right-[100px] top-[140px] min-[992px]:right-[120px] min-[992px]:top-[200px] min-[1200px]:top-[373px]">
+            class="absolute right-[100px] top-[140px] min-[992px]:right-[120px] min-[992px]:top-[200px] min-[1200px]:top-[373px]
+                   max-[375px]:right-[76px] max-[375px]:top-[126px]">
           <svg
-              class="w-[75px] h-[95px] "
+              class="w-[75px] h-[95px] max-[375px]:h-[38px]"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 100" fill="none">
             <path
                 class="stroke-[3px] min-[1200px]:stroke-[6px]"
@@ -123,13 +131,13 @@
           </svg>
         </div>
         <img
-            class="h-[523px] min-[992px]:h-[629px] flex-shrink-0 min-[1200px]:self-end"
+            class="h-[523px] min-[992px]:h-[629px] flex-shrink-0 min-[1200px]:self-end max-[375px]:h-[360px]"
             src="../assets/images/monkey-hover-coin.jpg"
             alt=""
         >
       </div>
     </div>
-    <div class="bg-primary relative">
+    <div id="buyingguide" class="bg-primary relative">
       <div class="container pt-[32px] min-[768px]:pt-[150px] min-[1200px]:pt-[201px]">
         <img
             class="w-[500px] absolute top-[-106px] max-[768px]:hidden min-[992px]:w-[550px] min-[992px]:top-[-130px]
@@ -140,7 +148,8 @@
           <div
               class="flex py-[16px] px-[24px] text-center text-white font-[900] text-[32px] w-full bg-[#FF4800] leading-[40px]
                    min-[768px]:w-[50%] min-[768px]:order-1 min-[768px]:max-h-[97px] items-center min-[768px]:text-[50px]
-                   min-[1440px]:h-[138px] min-[1440px]:p-[24px] min-[1440px]:text-[72px] min-[1440px]:leading-[90px]"
+                   min-[1440px]:h-[138px] min-[1440px]:p-[24px] min-[1440px]:text-[72px] min-[1440px]:leading-[90px]
+                   max-[375px]:text-[24px] max-[375px]:leading-[26px]"
           >
             Getting Started
           </div>
@@ -166,13 +175,13 @@
                 class="flex gap-[12px] mt-[24px] justify-center min-[1200px]:flex-row flex-shrink-0
                        min-[1200px]:max-w-[132px] min-[1200px]:max-h-[132px] min-[1200px]:flex-wrap min-[1200px]:mt-0"
             >
-              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px]"
+              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
                    src="../assets/images/wallet1.png" alt="">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px]"
+              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
                    src="../assets/images/wallet2.png" alt="">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px]"
+              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
                    src="../assets/images/wallet3.png" alt="">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px]"
+              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
                    src="../assets/images/wallet4.png" alt="">
             </div>
           </div>
@@ -195,7 +204,7 @@
               </p>
             </div>
             <div class="flex gap-[12px] mt-[24px] justify-center flex-shrink-0">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[132px] min-[1200px]:h-[132px]"
+              <img class="w-[68px] aspect-square min-[1200px]:w-[132px] min-[1200px]:h-[132px] max-[375px]:w-[50px]"
                    src="../assets/images/ETH.png" alt="">
             </div>
           </div>
@@ -216,7 +225,7 @@
               </p>
             </div>
             <div class="flex gap-[12px] mt-[24px] justify-center flex-shrink-0">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[132px] min-[1200px]:h-[132px]"
+              <img class="w-[68px] aspect-square min-[1200px]:w-[132px] min-[1200px]:h-[132px] max-[375px]:w-[50px]"
                    src="../assets/images/wallet-uniswap.png" alt="">
             </div>
           </div>
@@ -240,10 +249,11 @@
                 class="flex gap-[8px] mt-[24px] justify-center items-center min-[1200px]:m-w-[132px]
                        min-[1200px]:m-h-[132px] flex-shrink-0 min-[1200px]:flex-col"
             >
-              <img class="w-[68px] aspect-square  min-[1200px]:w-[100px] min-[1200px]:h-[100px]"
+              <img class="w-[68px] aspect-square  min-[1200px]:w-[100px] min-[1200px]:h-[100px] max-[375px]:w-[50px]"
                    src="../assets/images/ETH.png" alt="">
-              <img class="w-[24px] aspect-square rotate-90" src="../assets/images/arrow-right-line.png" alt="">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[100px] min-[1200px]:h-[100px]"
+              <img class="w-[24px] aspect-square min-[1200px]:rotate-90" src="../assets/images/arrow-right-line.png"
+                   alt="">
+              <img class="w-[68px] aspect-square min-[1200px]:w-[100px] min-[1200px]:h-[100px] max-[375px]:w-[50px]"
                    src="../assets/images/lion-coin.png" alt="">
             </div>
           </div>
@@ -262,7 +272,7 @@
             </div>
             <h2
                 class="text-center text-[24px] font-[900] text-white leading-[32px] mt-[37px] min-[768px]:order-1
-                        min-[768px]:absolute min-[768px]:top-0 min-[768px]:mt-[-80px] min-[768px]:right-0"
+                        min-[768px]:absolute min-[768px]:top-0 min-[768px]:mt-[-80px] min-[768px]:right-0  max-[375px]:text-[18px] max-[375px]:leading-[20px]"
             >
               Relax my Lion Legion
               <br>
@@ -289,12 +299,13 @@
                 class="text-[24px] leading-[32px] font-[900] text-center text-white mt-[48px] max-w-[353px]
                        min-[768px]:mt-0 min-[768px]:max-w-[207px] relative min-[992px]:right-[20px]
                        min-[992px]:max-w-[290px] min-[1200px]:text-[32px] min-[1200px]:leading-[40px]
-                       min-[1200px]:mt-[50px] min-[1440px]:max-w-[353px] min-[1440px]:text-left"
+                       min-[1200px]:mt-[50px] min-[1440px]:max-w-[353px] min-[1440px]:text-left max-[375px]:text-[18px] max-[375px]:leading-[20px]"
             >
               Follow the steps above and go get yourself a money-counting machine!
             </h2>
             <div class="relative z-30 min-[768px]:hidden">
-              <svg class="absolute top-[8px] left-[-80px]" xmlns="http://www.w3.org/2000/svg" width="63" height="52"
+              <svg class="absolute top-[8px] left-[-80px] max-[375px]:w-[50px] max-[375px]:left-[-50px]"
+                   xmlns="http://www.w3.org/2000/svg" width="63" height="52"
                    viewBox="0 0 63 52"
                    fill="none">
                 <path
@@ -316,7 +327,7 @@
               </svg>
             </div>
             <img
-                class="mt-[26px] self-start z-10 relative min-[576px]:left-[18%] min-[768px]:left-0 min-[1200px]:w-[241px]"
+                class="mt-[26px] self-start z-10 relative min-[576px]:left-[18%] min-[768px]:left-0 min-[1200px]:w-[241px] w-[139px]"
                 src="../assets/images/meerkat.png"
                 alt="">
           </div>
@@ -325,13 +336,13 @@
             class="relative top-[-78px] text-[94px] bg-linear-text-gradient-primary uppercase text-center
                    min-[576px]:text-[146px] min-[768px]:text-[198px] min-[768px]:leading-[198px] min-[768px]:top-[-116px]
                    min-[992px]:text-[264px] min-[992px]:top-[-150px] min-[1200px]:text-[313px] min-[1200px]:leading-[280px]
-                   min-[1200px]:top-[-180px] min-[1200px]:top-[-255px] min-[1440px]:text-[352px]"
+                   min-[1200px]:top-[-180px] min-[1200px]:top-[-255px] min-[1440px]:text-[352px] max-[375px]:text-[70px] max-[375px]:top-[-45px]"
         >
           Lion coin
         </h3>
       </div>
     </div>
-    <div class="report-wrap">
+    <div id="tokenomics" class="report-wrap">
       <div
           class="container flex flex-col items-center min-[768px]:flex-row min-[768px]:justify-between"
       >
@@ -379,10 +390,10 @@
         </div>
       </div>
     </div>
-    <div class="bg-oran relative">
+    <div id="roadmap" class="bg-oran relative">
       <img
           class="absolute w-[113px] aspect-square top-[15px] right-[63%] min-[576px]:right-[76%] min-[992px]:right-[82%]
-                  min-[1200px]:w-[240px] min-[1200px]:top-[57px] min-[1200px]:right-[75%] min-[1440px]:right-[78%]"
+                  min-[1200px]:w-[240px] min-[1200px]:top-[57px] min-[1200px]:right-[75%] min-[1440px]:right-[78%] max-[375px]:w-[90px] max-[375px]:top-[33px] max-[375px]:right-[190px]"
           src="../assets/images/bird.png" alt="">
       <div class="container flex flex-col items-center py-[32px] min-[1200px]:py-[80px]">
         <h2 class=" text-white font-[900] text-[32px] leading-[40px] mb-[32px] min-[1200px]:text-[72px] min-[1200px]:leading-[90px] min-[1200px]:mb-[80px]">
@@ -420,7 +431,7 @@
                 LION Coin officially launches on Ethereum Mainnet as an ERC20 token, unleashing the power of the alpha
                 predator meme coin. Prepare for the roar! 🦁🚀
                 <br>
-                #LionCoin #ProjectInception
+                #LionCoin #TokenLaunch
               </p>
             </div>
             <img src="../assets/images/roadmap-2.png" alt=""
@@ -436,7 +447,7 @@
               <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px]">
                 Feel the energy as we launch Visa/MasterCard payment options. HODL tight, the roar gets louder! 🦁💳
                 <br>
-                #LionCoin #ProjectInception
+                #LionCoin #CryptoRevolution
               </p>
             </div>
             <img src="../assets/images/roadmap-3.png" alt=""
@@ -454,7 +465,7 @@
                 The lions are on the prowl as $LION asserts its dominance in the crypto jungle. Brace yourself for the
                 roar of the revolution! 🦁🚀
                 <br>
-                #LionCoin #ProjectInception
+                #LionTakeover #CryptoKingdom
               </p>
             </div>
             <img src="../assets/images/roadmap-4.png" alt=""
