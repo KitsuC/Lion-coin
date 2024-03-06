@@ -73,7 +73,7 @@
     <div id="whatislion" class="relative min-[768px]:flex justify-between ">
       <div
           class="max-[768px]:m-auto max-[768px]:max-w-[540px] max-[576px]:max-w-[343px] pt-[32px] flex flex-col
-                 min-[768px]:max-w-[55.5%] min-[768px]:pt-[60px] min-[992px]:pt-[72px]"
+                 min-[768px]:max-w-[55.5%] min-[768px]:pt-[60px] min-[992px]:pt-[72px] max-[375px]:max-w-[260px]"
       >
         <div
             class="flex flex-col items-center min-[768px]:pl-[20px] min-[768px]:items-start justify-start min-[992px]:pl-[80px]"
@@ -81,7 +81,7 @@
           <button
               class="py-[16px] px-[24px] text-center text-white font-[900] text-[32px] w-full bg-[#FF4800] leading-[40px]
                      min-[768px]:max-w-[230px] min-[992px]:text-[72px] min-[992px]:leading-[90px] min-[992px]:max-w-fit
-                     max-[375px]:text-[24px] max-[375px]:leading-[24px] max-[375px]:py-[10px]"
+                     max-[375px]:text-[24px] max-[375px]:leading-[24px] max-[375px]:py-[10px] font-[400]"
           >
             What is Lion?
           </button>
@@ -138,7 +138,7 @@
       </div>
     </div>
     <div id="buyingguide" class="bg-primary relative">
-      <div class="container pt-[32px] min-[768px]:pt-[150px] min-[1200px]:pt-[201px]">
+      <div class="container pt-[32px] min-[768px]:pt-[150px] min-[1200px]:pt-[201px] min-[1200px]:h-[1566px] min-[768px]:h-[1245px] min-[992px]:h-[1336px] min-[576px]:h-[2036px] max-[575px]:h-[1928px]">
         <img
             class="w-[500px] absolute top-[-106px] max-[768px]:hidden min-[992px]:w-[550px] min-[992px]:top-[-130px]
                     min-[1200px]:h-[312px] min-[1200px]:w-auto min-[1200px]:top-[-217px]"
@@ -149,7 +149,7 @@
               class="flex py-[16px] px-[24px] text-center text-white font-[900] text-[32px] w-full bg-[#FF4800] leading-[40px]
                    min-[768px]:w-[50%] min-[768px]:order-1 min-[768px]:max-h-[97px] items-center min-[768px]:text-[50px]
                    min-[1440px]:h-[138px] min-[1440px]:p-[24px] min-[1440px]:text-[72px] min-[1440px]:leading-[90px]
-                   max-[375px]:text-[24px] max-[375px]:leading-[26px]"
+                   max-[375px]:text-[24px] max-[375px]:leading-[26px] font-[400]"
           >
             Getting Started
           </div>
@@ -258,7 +258,7 @@
             </div>
           </div>
           <div class="relative flex flex-col items-center order-2 min-[768px]:w-[50%]">
-            <img class="h-[150px] min-[768px]:order-3 min-[768px]:w-full min-[768px]:h-auto"
+            <img class=" min-[768px]:order-3 min-[768px]:h-auto min-[280px]:w-full"
                  src="../assets/images/lion-relax.png"
                  alt="">
             <div class="relative min-[768px]:hidden">
@@ -348,8 +348,8 @@
       >
         <div class="flex flex-col  pt-[32px] items-center min-[768px]:items-start ">
           <h2
-              class="text-[#FF4800] text-[32px] leading-[40px] font-[900] text-center mb-[32px]
-                      min-[768px]:text-[72px] min-[768px]:leading-[90px] min-[768px]:mb-[48px] "
+              class="text-[#FF4800] text-[32px] leading-[40px] text-center mb-[32px]
+                      min-[768px]:text-[72px] min-[768px]:leading-[90px] min-[768px]:mb-[48px] font-[400]"
           >
             Tokenomics
           </h2>
@@ -396,13 +396,13 @@
                   min-[1200px]:w-[240px] min-[1200px]:top-[57px] min-[1200px]:right-[75%] min-[1440px]:right-[78%] max-[375px]:w-[90px] max-[375px]:top-[33px] max-[375px]:right-[190px]"
           src="../assets/images/bird.png" alt="">
       <div class="container flex flex-col items-center py-[32px] min-[1200px]:py-[80px]">
-        <h2 class=" text-white font-[900] text-[32px] leading-[40px] mb-[32px] min-[1200px]:text-[72px] min-[1200px]:leading-[90px] min-[1200px]:mb-[80px]">
+        <h2 class=" text-white text-[32px] leading-[40px] mb-[32px] min-[1200px]:text-[72px] min-[1200px]:leading-[90px] min-[1200px]:mb-[80px] font-[400]">
           Roadmap
         </h2>
         <div class="flex flex-col min-[1200px]:flex-row">
           <div class="flex flex-col min-[1200px]:max-w-[250px] min-[1440px]:max-w-[320px]">
             <div
-                class="p-[12px] bg-white flex-shrink-0 flex flex-col min-[1200px]:h-[250px] min-[1440px]:h-[320px] min-[1440px]:p-[24px]">
+                class="p-[12px] min-[1200px]:p-[17px] bg-white flex-shrink-0 flex flex-col min-[1200px]:h-[250px] min-[1440px]:h-[320px] min-[1440px]:p-[23px]">
               <h3 class="text-[24px] font-[900] text-[#1E293B] leading-[32px] min-[1440px]:text-[32px] min-[1440px]:leading-[40px]">
                 Phase 1:</h3>
               <span
@@ -420,7 +420,7 @@
           <div
               class="flex flex-col min-[1200px]:max-w-[250px] min-[1440px]:max-w-[320px] min-[1200px]:flex-col-reverse">
             <div
-                class="p-[12px] bg-white flex-shrink-0 flex flex-col min-[1200px]:h-[250px] min-[1440px]:h-[320px] min-[1440px]:p-[24px]">
+                class="p-[12px] min-[1200px]:p-[17px] bg-white flex-shrink-0 flex flex-col min-[1200px]:h-[250px] min-[1440px]:h-[320px] min-[1440px]:p-[23px]">
               <h3 class="text-[24px] font-[900] text-[#1E293B] leading-[32px] min-[1440px]:text-[32px] min-[1440px]:leading-[40px]">
                 Phase 2:</h3>
               <span
@@ -439,7 +439,7 @@
           </div>
           <div class="flex flex-col min-[1200px]:max-w-[250px] min-[1440px]:max-w-[320px]">
             <div
-                class="p-[12px] bg-white flex-shrink-0 flex flex-col min-[1200px]:h-[250px] min-[1440px]:h-[320px] min-[1440px]:p-[24px]">
+                class="p-[12px] min-[1200px]:p-[17px] bg-white flex-shrink-0 flex flex-col min-[1200px]:h-[250px] min-[1440px]:h-[320px] min-[1440px]:p-[23px]">
               <h3 class="text-[24px] font-[900] text-[#1E293B] leading-[32px] min-[1440px]:text-[32px] min-[1440px]:leading-[40px]">
                 Phase 3:</h3>
               <span
@@ -456,7 +456,7 @@
           <div
               class="flex flex-col min-[1200px]:max-w-[250px] min-[1440px]:max-w-[320px] min-[1200px]:flex-col-reverse">
             <div
-                class="p-[12px] bg-white flex-shrink-0 flex flex-col min-[1200px]:h-[250px] min-[1440px]:h-[320px] min-[1440px]:p-[24px]">
+                class="p-[12px] min-[1200px]:p-[17px] bg-white flex-shrink-0 flex flex-col min-[1200px]:h-[250px] min-[1440px]:h-[320px] min-[1440px]:p-[23px]">
               <h3 class="text-[24px] font-[900] text-[#1E293B] leading-[32px] min-[1440px]:text-[32px] min-[1440px]:leading-[40px]">
                 Phase 4:</h3>
               <span
