@@ -79,7 +79,7 @@
             class="flex flex-col items-center min-[768px]:pl-[20px] min-[768px]:items-start justify-start min-[992px]:pl-[80px]"
         >
           <button
-              class="py-[16px] px-[24px] text-center text-white font-[900] text-[32px] w-full bg-[#FF4800] leading-[40px]
+              class="py-[16px] px-[24px] text-center text-white text-[32px] w-full bg-[#FF4800] leading-[40px]
                      min-[768px]:max-w-[230px] min-[992px]:text-[72px] min-[992px]:leading-[90px] min-[992px]:max-w-fit
                      max-[375px]:text-[24px] max-[375px]:leading-[24px] max-[375px]:py-[10px] font-[400]"
           >
@@ -138,7 +138,8 @@
       </div>
     </div>
     <div id="buyingguide" class="bg-primary relative">
-      <div class="container pt-[32px] min-[768px]:pt-[150px] min-[1200px]:pt-[201px] min-[1200px]:h-[1566px] min-[768px]:h-[1245px] min-[992px]:h-[1336px] min-[576px]:h-[2036px] max-[575px]:h-[1928px]">
+      <div
+          class="container pt-[32px] min-[768px]:pt-[150px] min-[1200px]:pt-[201px] min-[1200px]:h-[1566px] min-[768px]:h-[1245px] min-[992px]:h-[1336px] min-[576px]:h-[2036px] max-[575px]:h-[1928px]">
         <img
             class="w-[500px] absolute top-[-106px] max-[768px]:hidden min-[992px]:w-[550px] min-[992px]:top-[-130px]
                     min-[1200px]:h-[312px] min-[1200px]:w-auto min-[1200px]:top-[-217px]"
@@ -175,14 +176,18 @@
                 class="flex gap-[12px] mt-[24px] justify-center min-[1200px]:flex-row flex-shrink-0
                        min-[1200px]:max-w-[132px] min-[1200px]:max-h-[132px] min-[1200px]:flex-wrap min-[1200px]:mt-0"
             >
-              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
-                   src="../assets/images/wallet1.png" alt="">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
-                   src="../assets/images/wallet2.png" alt="">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
-                   src="../assets/images/wallet3.png" alt="">
-              <img class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
-                   src="../assets/images/wallet4.png" alt="">
+              <img
+                  class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
+                  src="../assets/images/wallet1.png" alt="">
+              <img
+                  class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
+                  src="../assets/images/wallet2.png" alt="">
+              <img
+                  class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
+                  src="../assets/images/wallet3.png" alt="">
+              <img
+                  class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
+                  src="../assets/images/wallet4.png" alt="">
             </div>
           </div>
           <div
@@ -393,7 +398,8 @@
     <div id="roadmap" class="bg-oran relative">
       <img
           class="absolute w-[113px] aspect-square top-[15px] right-[63%] min-[576px]:right-[76%] min-[992px]:right-[82%]
-                  min-[1200px]:w-[240px] min-[1200px]:top-[57px] min-[1200px]:right-[75%] min-[1440px]:right-[78%] max-[375px]:w-[90px] max-[375px]:top-[33px] max-[375px]:right-[190px]"
+                 min-[1200px]:w-[240px] min-[1200px]:top-[57px] min-[1200px]:right-[75%] min-[1440px]:right-[78%]
+                 max-[375px]:w-[80px] max-[375px]:top-[40px] max-[375px]:right-[273px]"
           src="../assets/images/bird.png" alt="">
       <div class="container flex flex-col items-center py-[32px] min-[1200px]:py-[80px]">
         <h2 class=" text-white text-[32px] leading-[40px] mb-[32px] min-[1200px]:text-[72px] min-[1200px]:leading-[90px] min-[1200px]:mb-[80px] font-[400]">
@@ -407,7 +413,7 @@
                 Phase 1:</h3>
               <span
                   class="text-[24px] font-[900] text-[#FF4800] leading-[32px] mb-[12px] min-[1440px]:text-[32px] min-[1440px]:leading-[40px]">Project Inception</span>
-              <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px]">
+              <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px] font-[300]">
                 We kickstart LionCoin with a clear vision, assembling our team and laying the foundation for our alpha
                 predator meme coin. Stay tuned for roaring updates! 🦁🚀
                 <br>
@@ -427,7 +433,7 @@
                   class="text-[24px] font-[900] text-[#FF4800] leading-[32px] mb-[12px] min-[1440px]:text-[32px] min-[1440px]:leading-[40px]">
                 Token Launch
               </span>
-              <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px]">
+              <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px]  font-[300]">
                 LION Coin officially launches on Ethereum Mainnet as an ERC20 token, unleashing the power of the alpha
                 predator meme coin. Prepare for the roar! 🦁🚀
                 <br>
@@ -444,7 +450,7 @@
                 Phase 3:</h3>
               <span
                   class="text-[24px] font-[900] text-[#FF4800] leading-[32px] mb-[12px] min-[1440px]:text-[32px] min-[1440px]:leading-[40px]">Vibe and HODL</span>
-              <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px]">
+              <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px]  font-[300]">
                 Feel the energy as we launch Visa/MasterCard payment options. HODL tight, the roar gets louder! 🦁💳
                 <br>
                 #LionCoin #CryptoRevolution
@@ -461,7 +467,7 @@
                 Phase 4:</h3>
               <span
                   class="text-[24px] font-[900] text-[#FF4800] leading-[32px] mb-[12px] min-[1440px]:text-[32px] min-[1440px]:leading-[40px]">$LION Takeover</span>
-              <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px]">
+              <p class="text-[14px] leading-[24px] text-[#475569] min-[1440px]:text-[18px]  min-[1440px]:leading-[30px]  font-[300]">
                 The lions are on the prowl as $LION asserts its dominance in the crypto jungle. Brace yourself for the
                 roar of the revolution! 🦁🚀
                 <br>
