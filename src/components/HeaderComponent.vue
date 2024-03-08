@@ -3,9 +3,9 @@
     <div class="bg-[#0F172A] flex relative">
       <div
           class="container py-[13.45px] min-[768px]:py-[24px] w-full mx-auto flex justify-between items-center relative z-30">
-        <div class="flex-shrink-0 flex items-center">
-          <img src="../assets/images/lion-coin-logo.png" alt="" class="h-[33px] min-[992px]:h-[40px] min-[1200px]:h-[48px]">
-          <span class="uppercase">Lion</span>
+        <div class="flex-shrink-0 flex items-center gap-[8px]">
+          <img src="../assets/images/lion-coin-logo.png" alt="" class="h-[33px] min-[992px]:h-[48px]">
+          <span class="uppercase text-white min-[992px]:text-[48px] font-[400] text-[24px]">Lion</span>
         </div>
         <div class="hidden min-[768px]:block border-r h-full border-[#1E293B]"></div>
         <div
@@ -137,9 +137,9 @@
     <div class="bg-[#0F172A] flex relative">
       <div
           class="container py-[13.45px] min-[768px]:py-[24px] w-full mx-auto flex justify-between items-center relative z-30">
-        <div class="flex-shrink-0 flex items-center">
-          <img src="../assets/images/lion-coin-logo.png" alt="" class="h-[33px] min-[992px]:h-[40px] min-[1200px]:h-[48px]">
-          <span class="uppercase ms-[4px] text-white">LION</span>
+        <div class="flex-shrink-0 flex items-center gap-[8px]">
+          <img src="../assets/images/lion-coin-logo.png" alt="" class="h-[33px] min-[992px]:h-[48px]">
+          <span class="uppercase text-white min-[992px]:text-[48px] font-[400] text-[24px]">Lion</span>
         </div>
         <div class="hidden min-[768px]:block border-r h-full border-[#1E293B]"></div>
         <div
@@ -294,13 +294,12 @@ const scrollToSection = (sectionId) => {
 const scrollY = ref(0);
 const previousScrollY = ref(0);
 const currentScroll = ref(0);
-const showHeader = ref(true); // Initially show the header
+const showHeader = ref(true);
 
 const onScroll = () => {
   currentScroll.value = window.scrollY || document.documentElement.scrollTop;
 
   if (currentScroll.value > previousScrollY.value) {
-    // Cuộn xuống, ẩn header
     showHeader.value = false;
   } else {
     showHeader.value = true;

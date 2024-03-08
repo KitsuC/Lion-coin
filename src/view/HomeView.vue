@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="home" class="banner-wrap">
+    <div id="home" class="banner-wrap" :style="{'background-image': `url(${fetchedImages[30].data})`}">
       <h2
           class="text-[96px] text-white relative z-10 text-center min-[992px]:text-[150px] min-[992px]:w-fit min-[992px]:self-end
                 min-[992px]:right-[85px] min-[1200px]:text-[220px] max-[375px]:text-[60px]"
@@ -11,7 +11,7 @@
         <img
             class="absolute bottom-[168px] left-[-53px] w-[370px] min-[576px]:bottom-[120px] min-[768px]:bottom-0
                  min-[768px]:w-[646px] min-[992px]:w-[950px] min-[1200px]:w-[1052px] min-[1200px]:left-[-5px] "
-            src="../assets/images/Lionbaner.png"
+            :src="fetchedImages[0].data"
             alt=""
         >
         <p
@@ -24,7 +24,7 @@
         <img class="absolute h-[46px] w-[94px] top-[37%] left-[120px] min-[576px]:top-[45%] min-[768px]:w-[214px]
                   min-[768px]:left-[195px] min-[768px]:h-[106px] min-[992px]:top-[52%] min-[992px]:left-[410px]
                   max-[375px]:top-[46%] max-[375px]:left-[84px]"
-             src="../assets/images/vector-white.png"
+             :src="fetchedImages[1].data"
              alt="">
       </div>
       <div
@@ -38,23 +38,23 @@
         >
           <div class="flex gap-[8px] self-start min-[768px]:gap-[10px] min-[992px]:gap-[30px] min-[1200px]:gap-[48px]">
             <img class="w-[32px] aspect-square min-[768px]:w-[40px] min-[992px]:w-[60px] min-[1200px]:w-[80px]"
-                 src="../assets/images/coin-1.png" alt="">
+                 :src="fetchedImages[2].data" alt="">
             <img class="w-[32px] aspect-square min-[768px]:w-[40px] min-[992px]:w-[60px] min-[1200px]:w-[80px]"
-                 src="../assets/images/coin-2.png" alt="">
+                 :src="fetchedImages[3].data" alt="">
             <img class="w-[32px] aspect-square min-[768px]:w-[40px] min-[992px]:w-[60px] min-[1200px]:w-[80px]"
-                 src="../assets/images/coin-3.png" alt="">
+                 :src="fetchedImages[4].data" alt="">
             <img class="w-[32px] aspect-square min-[768px]:w-[40px] min-[992px]:w-[60px] min-[1200px]:w-[80px]"
-                 src="../assets/images/coin-4.png" alt="">
+                 :src="fetchedImages[5].data" alt="">
           </div>
           <div class="flex gap-[8px] self-end min-[768px]:gap-[10px] min-[992px]:gap-[30px] min-[1200px]:gap-[48px]">
             <img class="w-[32px] aspect-square min-[768px]:w-[40px] min-[992px]:w-[60px] min-[1200px]:w-[80px]"
-                 src="../assets/images/coin-5.png" alt="">
+                 :src="fetchedImages[6].data" alt="">
             <img class="w-[32px] aspect-square min-[768px]:w-[40px] min-[992px]:w-[60px] min-[1200px]:w-[80px]"
-                 src="../assets/images/coin-6.png" alt="">
+                 :src="fetchedImages[7].data" alt="">
             <img class="w-[32px] aspect-square min-[768px]:w-[40px] min-[992px]:w-[60px] min-[1200px]:w-[80px]"
-                 src="../assets/images/coin-7.png" alt="">
+                 :src="fetchedImages[8].data" alt="">
             <img class="w-[32px] aspect-square min-[768px]:w-[40px] min-[992px]:w-[60px] min-[1200px]:w-[80px]"
-                 src="../assets/images/coin-8.png" alt="">
+                 :src="fetchedImages[9].data" alt="">
           </div>
         </div>
         <div
@@ -132,7 +132,7 @@
         </div>
         <img
             class="h-[523px] min-[992px]:h-[629px] flex-shrink-0 min-[1200px]:self-end max-[375px]:h-[360px]"
-            src="../assets/images/monkey-hover-coin.jpg"
+            :src="fetchedImages[10].data"
             alt=""
         >
       </div>
@@ -143,7 +143,7 @@
         <img
             class="w-[500px] absolute top-[-106px] max-[768px]:hidden min-[992px]:w-[550px] min-[992px]:top-[-130px]
                     min-[1200px]:h-[312px] min-[1200px]:w-auto min-[1200px]:top-[-217px]"
-            src="../assets/images/lion-hunt.png"
+            :src="fetchedImages[11].data"
             alt="">
         <div class="min-[768px]:flex flex-wrap">
           <div
@@ -178,16 +178,16 @@
             >
               <img
                   class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
-                  src="../assets/images/wallet1.png" alt="">
+                  :src="fetchedImages[12].data" alt="">
               <img
                   class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
-                  src="../assets/images/wallet2.png" alt="">
+                  :src="fetchedImages[13].data" alt="">
               <img
                   class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
-                  src="../assets/images/wallet3.png" alt="">
+                  :src="fetchedImages[14].data" alt="">
               <img
                   class="w-[68px] aspect-square min-[1200px]:w-[60px] min-[1200px]:h-[60px] max-[375px]:w-[50px] rounded-[8px]"
-                  src="../assets/images/wallet4.png" alt="">
+                  :src="fetchedImages[15].data" alt="">
             </div>
           </div>
           <div
@@ -210,7 +210,7 @@
             </div>
             <div class="flex gap-[12px] mt-[24px] justify-center flex-shrink-0">
               <img class="w-[68px] aspect-square min-[1200px]:w-[132px] min-[1200px]:h-[132px] max-[375px]:w-[50px]"
-                   src="../assets/images/ETH.png" alt="">
+                   :src="fetchedImages[16].data" alt="">
             </div>
           </div>
           <div
@@ -231,7 +231,7 @@
             </div>
             <div class="flex gap-[12px] mt-[24px] justify-center flex-shrink-0">
               <img class="w-[68px] aspect-square min-[1200px]:w-[132px] min-[1200px]:h-[132px] max-[375px]:w-[50px]"
-                   src="../assets/images/wallet-uniswap.png" alt="">
+                   :src="fetchedImages[17].data" alt="">
             </div>
           </div>
           <div
@@ -255,16 +255,16 @@
                        min-[1200px]:m-h-[132px] flex-shrink-0 min-[1200px]:flex-col"
             >
               <img class="w-[68px] aspect-square  min-[1200px]:w-[100px] min-[1200px]:h-[100px] max-[375px]:w-[50px]"
-                   src="../assets/images/ETH.png" alt="">
-              <img class="w-[24px] aspect-square min-[1200px]:rotate-90" src="../assets/images/arrow-right-line.png"
+                   :src="fetchedImages[16].data" alt="">
+              <img class="w-[24px] aspect-square min-[1200px]:rotate-90" :src="fetchedImages[18].data"
                    alt="">
               <img class="w-[68px] aspect-square min-[1200px]:w-[100px] min-[1200px]:h-[100px] max-[375px]:w-[50px]"
-                   src="../assets/images/lion-coin.png" alt="">
+                   :src="fetchedImages[19].data" alt="">
             </div>
           </div>
           <div class="relative flex flex-col items-center order-2 min-[768px]:w-[50%]">
             <img class=" min-[768px]:order-3 min-[768px]:h-auto min-[280px]:w-full"
-                 src="../assets/images/lion-relax.png"
+                 :src="fetchedImages[20].data"
                  alt="">
             <div class="relative min-[768px]:hidden">
               <svg class="absolute bottom-[-25px] left-[-65px] min-[768px]:top-0" xmlns="http://www.w3.org/2000/svg"
@@ -333,7 +333,7 @@
             </div>
             <img
                 class="mt-[26px] self-start z-10 relative min-[576px]:left-[18%] min-[768px]:left-0 min-[1200px]:w-[241px] w-[139px]"
-                src="../assets/images/meerkat.png"
+                :src="fetchedImages[21].data"
                 alt="">
           </div>
         </div>
@@ -347,7 +347,7 @@
         </h3>
       </div>
     </div>
-    <div id="tokenomics" class="report-wrap">
+    <div id="tokenomics" class="report-wrap" :style="{'background-image': `url(${fetchedImages[28].data})`}">>
       <div
           class="container flex flex-col items-center min-[768px]:flex-row min-[768px]:justify-between"
       >
@@ -378,10 +378,10 @@
             <p> LP tokens are burnt, and contract ownership is renounced.</p>
           </div>
         </div>
-        <img src="../assets/images/coin-moon.png" alt=""
+        <img :src="fetchedImages[22].data" alt=""
              class="w-[321px] aspect-square min-[1200px]:w-[600px] min-[996px]:w-[500px] min-[996px]:absolute top-[65px] right-0">
       </div>
-      <div class="walking relative">
+      <div class="walking relative" :style="{'background-image': `url(${fetchedImages[29].data})`}">>
         <div class="absolute top-[-30%] flex flex-col items-center min-[768px]:top-[-22%] ">
           <span class="text-[24px] font-[900] leading-[32px] text-white relative mb-[6px] min-[768px]:text-[32px]">To the Moon my friend</span>
           <svg
@@ -400,7 +400,7 @@
           class="absolute w-[113px] aspect-square top-[15px] right-[63%] min-[576px]:right-[76%] min-[992px]:right-[82%]
                  min-[1200px]:w-[240px] min-[1200px]:top-[57px] min-[1200px]:right-[75%] min-[1440px]:right-[78%]
                  max-[375px]:w-[80px] max-[375px]:top-[40px] max-[375px]:right-[273px]"
-          src="../assets/images/bird.png" alt="">
+          :src="fetchedImages[23].data" alt="">
       <div class="container flex flex-col items-center py-[32px] min-[1200px]:py-[80px]">
         <h2 class=" text-white text-[32px] leading-[40px] mb-[32px] min-[1200px]:text-[72px] min-[1200px]:leading-[90px] min-[1200px]:mb-[80px] font-[400]">
           Roadmap
@@ -420,7 +420,7 @@
                 #LionCoin #ProjectInception
               </p>
             </div>
-            <img src="../assets/images/roadmap-1.png" alt=""
+            <img :src="fetchedImages[24].data" alt=""
                  class="flex-shrink-0 object-cover h-[196px] min-[576px]:h-[240px] min-[768px]:h-[270px] min-[1200px]:h-[250px] min-[1200px]:w-[250px] min-[1440px]:h-[320px] min-[1440px]:w-[320px]">
           </div>
           <div
@@ -440,7 +440,7 @@
                 #LionCoin #TokenLaunch
               </p>
             </div>
-            <img src="../assets/images/roadmap-2.png" alt=""
+            <img :src="fetchedImages[25].data" alt=""
                  class="flex-shrink-0 object-cover h-[196px] min-[576px]:h-[240px] min-[768px]:h-[270px] min-[1200px]:h-[250px] min-[1200px]:w-[250px] min-[1440px]:h-[320px] min-[1440px]:w-[320px]">
           </div>
           <div class="flex flex-col min-[1200px]:max-w-[250px] min-[1440px]:max-w-[320px]">
@@ -456,7 +456,7 @@
                 #LionCoin #CryptoRevolution
               </p>
             </div>
-            <img src="../assets/images/roadmap-3.png" alt=""
+            <img :src="fetchedImages[26].data" alt=""
                  class="flex-shrink-0 object-cover h-[196px] min-[576px]:h-[240px] min-[768px]:h-[270px] min-[1200px]:h-[250px] min-[1200px]:w-[250px] min-[1440px]:h-[320px] min-[1440px]:w-[320px]">
           </div>
           <div
@@ -474,7 +474,7 @@
                 #LionTakeover #CryptoKingdom
               </p>
             </div>
-            <img src="../assets/images/roadmap-4.png" alt=""
+            <img :src="fetchedImages[27].data" alt=""
                  class="flex-shrink-0 object-cover h-[196px] min-[576px]:h-[240px] min-[768px]:h-[270px] min-[1200px]:h-[250px] min-[1200px]:w-[250px] min-[1440px]:h-[320px] min-[1440px]:w-[320px]">
           </div>
         </div>
@@ -484,13 +484,21 @@
 </template>
 
 <script setup>
+import {defineProps} from 'vue';
+
+const props = defineProps({
+  fetchedImages: {
+    type: Array,
+    required: true,
+  }
+})
+
 
 </script>
 
 <style lang="css" scoped>
 .banner-wrap {
   position: relative;
-  background-image: url("../assets/images/bg-home-1.png");
   height: 667px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -507,7 +515,6 @@
 }
 
 .report-wrap {
-  background-image: url("../assets/images/bg-home-2.png");
   background-repeat: no-repeat;
   height: 975px;
   background-size: cover;
@@ -520,7 +527,6 @@
 }
 
 .walking {
-  background-image: url("../assets/images/walking.png");
   height: 241px;
   background-size: cover;
   transform: translateY(8%);

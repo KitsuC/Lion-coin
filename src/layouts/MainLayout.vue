@@ -1,7 +1,7 @@
 <template>
   <header-component/>
   <div>
-    <home-view/>
+    <home-view :fetchedImages="fetchedImages"/>
   </div>
   <footer-component/>
 </template>
@@ -31,6 +31,7 @@ import wallet3 from '../assets/images/wallet3.png';
 import wallet4 from '../assets/images/wallet4.png';
 import ETH from '../assets/images/ETH.png';
 import walletUniswap from '../assets/images/wallet-uniswap.png';
+import rightArrow from '../assets/images/arrow-right-line.png'
 import lionCoin from '../assets/images/lion-coin.png';
 import lionRelax from '../assets/images/lion-relax.png';
 import meerkat from '../assets/images/meerkat.png';
@@ -40,6 +41,9 @@ import roadmap1 from '../assets/images/roadmap-1.png';
 import roadmap2 from '../assets/images/roadmap-2.png';
 import roadmap3 from '../assets/images/roadmap-3.png';
 import roadmap4 from '../assets/images/roadmap-4.png';
+import bgReport from "../assets/images/bg-home-2.png";
+import walking from "../assets/images/walking.png";
+import bgHome from "../assets/images/bg-home-1.png";
 
 const dataArray = ref([
   lion,
@@ -60,6 +64,7 @@ const dataArray = ref([
   wallet4,
   ETH,
   walletUniswap,
+  rightArrow,
   lionCoin,
   lionRelax,
   meerkat,
@@ -68,20 +73,23 @@ const dataArray = ref([
   roadmap1,
   roadmap2,
   roadmap3,
-  roadmap4
+  roadmap4,
+  bgReport,
+  walking,
+  bgHome
 ]);
 const fetchedImages = ref([]);
 const asyncFcn = async () => {
   const imageChunks = chunkArray(dataArray.value, 3);
   for (const imageRow of imageChunks) {
-    const responses = await Promise.all(imageRow.map(path => axios.get(path, { responseType: 'blob' })));
-
+    const responses = await Promise.all(imageRow.map(path => axios.get(path, {responseType: 'blob'})));
     fetchedImages.value.push(...responses.map(response => ({
       data: URL.createObjectURL(response.data),
       originalPath: response.config.url
     })));
   }
 }
+
 function chunkArray(array, size) {
   const result = [];
   for (let i = 0; i < array.length; i += size) {
@@ -89,6 +97,7 @@ function chunkArray(array, size) {
   }
   return result;
 }
+
 await asyncFcn();
 
 </script>
